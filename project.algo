@@ -1,0 +1,11 @@
+ALGORITHM sentence_reader
+VAR
+    sentence : STRING;
+BEGIN
+    Read(sentence)
+    IF (sentence.length-1) THEN
+        set_instructions
+    ELSE
+        set_instructions
+    END_IF
+END
